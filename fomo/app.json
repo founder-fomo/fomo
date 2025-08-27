@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "FOMO",
+    "slug": "fomo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/fomo-logo.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/fomo-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "FOMO uses your location to show events within 15 miles.",
+        "NSPhotoLibraryUsageDescription": "FOMO needs access to your photos to let you upload a profile picture."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "EXPO_PUBLIC_API_URL": "https://api.fomo-inc.com"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+fomo/node_modules/
+server/node_modules/
+
+# Builds/outputs
+server/dist/
+*.log
+
+# Expo
+fomo/.expo/
+fomo/.expo-shared/
+
+# Env/DB
+*.env
+server/prisma/dev.db
