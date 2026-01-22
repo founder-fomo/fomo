@@ -30,7 +30,7 @@
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "EXPO_PUBLIC_API_URL": "https://api.fomo-inc.com"
+      "EXPO_PUBLIC_API_URL": "http://100.65.47.21:4000"
     },
     "plugins": [
       "expo-secure-store"
